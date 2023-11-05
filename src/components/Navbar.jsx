@@ -1,12 +1,13 @@
 import React from "react";
+import maweLogo from "../assets/img/logo-mawe.png";
 
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navbar-bg">
                 <div class="container-fluid">
                     <a class="navbar-brand text-dark" href="#">
-                        Navbar
+                        <img className="logo-mawe" src={maweLogo} alt="Logo Mawe" />
                     </a>
                     <button
                         class="navbar-toggler"

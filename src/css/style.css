@@ -1,15 +1,33 @@
 .head {
-  height: 100vh;
+  height: calc(100vh - 58px);
 }
 
 .head-box {
   width: 100%;
-  height: 30rem;
 }
 
 .personal {
-  background-image: url(../assets/img/personal.png);
+  background-image: url(../assets/img/foto_personal.png);
   background-position: center;
   width: 20rem;
   height: 20rem;
+  border-radius: 25%;
+  border: 2px solid black;
+}
+
+.logo-mawe {
+  width: 8rem;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.programming {
+  width: 30rem;
+}
+
+.skills {
+  width: 70vw;
+  height: 5rem;
+  border: 2px solid black;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
