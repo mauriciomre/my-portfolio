@@ -4,8 +4,8 @@ import maweLogo from "../assets/img/logo-mawe.png";
 const Navbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-bg">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
+                <div class="container-fluid max-container">
                     <a class="navbar-brand text-dark" href="#">
                         <img className="logo-mawe" src={maweLogo} alt="Logo Mawe" />
                     </a>
@@ -21,7 +21,7 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav text-dark">
+                        <div class="navbar-nav text-dark text-center">
                             <a class="nav-link active text-dark" aria-current="page" href="#">
                                 HOME
                             </a>
