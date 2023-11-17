@@ -40,38 +40,28 @@ const Main = () => {
                         <h4 className="fw-bold mb-4">My Skills</h4>
                         <div className="skills d-flex gap-2 justify-content-around align-items-center px-3 w-100">
                             <div className="icon-skill">
-                                <img
-                                    className="icon-skill-img javascript"
-                                    src={javascript}
-                                    alt="javascript"
-                                    srcset=""
-                                />
+                                <img className="icon-skill-img javascript" src={javascript} alt="javascript" />
                             </div>
                             <div className="icon-skill">
-                                <img
-                                    className="icon-skill-img typescript"
-                                    src={typescript}
-                                    alt="typescript"
-                                    srcset=""
-                                />
+                                <img className="icon-skill-img typescript" src={typescript} alt="typescript" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img sass" src={sass} alt="sass" srcset="" />
+                                <img className="icon-skill-img sass" src={sass} alt="sass" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img bootstrap" src={bootstrap} alt="bootstrap" srcset="" />
+                                <img className="icon-skill-img bootstrap" src={bootstrap} alt="bootstrap" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img git" src={git} alt="git" srcset="" />
+                                <img className="icon-skill-img git" src={git} alt="git" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img mongo" src={mongo} alt="mongo" srcset="" />
+                                <img className="icon-skill-img mongo" src={mongo} alt="mongo" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img nodejs" src={nodejs} alt="nodejs" srcset="" />
+                                <img className="icon-skill-img nodejs" src={nodejs} alt="nodejs" />
                             </div>
                             <div className="icon-skill">
-                                <img className="icon-skill-img react" src={react} alt="react" srcset="" />
+                                <img className="icon-skill-img react" src={react} alt="react" />
                             </div>
                         </div>
                     </div>
@@ -90,20 +80,17 @@ const Main = () => {
                                     className="photo position-absolute top-0 start-0 translate-middle z-1 d-none d-md-inline-block"
                                     src={photo}
                                     alt="personal picture"
-                                    srcset=""
                                 />
                                 <img
                                     className="seated position-absolute translate-middle z-1"
                                     src={seated}
                                     alt="seated"
-                                    srcset=""
                                 />
                                 <div className="container">
                                     <img
                                         className="rounded-pill w-25 z-1 d-inline-block d-md-none mb-3"
                                         src={photo}
                                         alt="personal picture"
-                                        srcset=""
                                     />
                                     <strong className="fs-1 ms-3">Hello world!</strong>
                                     <p className="fs-4 position-relative">
