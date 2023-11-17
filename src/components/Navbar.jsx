@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
                 <div class="container-fluid max-container">
-                    <a class="navbar-brand text-dark" href="#">
+                    <a class="navbar-brand text-dark px-3 py-2" href="#">
                         <img className="logo-mawe" src={maweLogo} alt="Logo Mawe" />
                     </a>
                     <button
@@ -21,17 +21,17 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav text-dark text-center">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">
+                        <div class="navbar-nav text-dark text-center gap-1">
+                            <a class="nav-link active text-dark bg-white rounded" aria-current="page" href="#">
                                 HOME
                             </a>
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-dark bg-white rounded" href="#">
                                 ABOUT
                             </a>
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-dark bg-white rounded" href="#">
                                 PROJECTS
                             </a>
-                            <a class="nav-link text-dark" href="#">
+                            <a class="nav-link text-dark bg-white rounded" href="#">
                                 CONTACT
                             </a>
                         </div>

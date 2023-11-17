@@ -1,0 +1,17 @@
+.logo-mawe {
+    width: 8rem;
+    filter: invert(100%) drop-shadow(2px 3px 3px white);
+}
+
+.nav-link {
+    transition: 500ms;
+}
+
+.nav-link:hover {
+    filter: drop-shadow(2px 2px 2px $purple);
+    transition: 500ms;
+}
+
+.navbar-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+}

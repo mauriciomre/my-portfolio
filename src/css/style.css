@@ -1,33 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --bs-warning-rgb: 255, 169, 107;
+  --bs-primary-rgb: 76, 57, 82;
+}
+
+.container-footer {
+  min-height: 40rem;
+  height: 50rem;
+  /* background-color: black; */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.logo-mawe {
+  width: 8rem;
+  -webkit-filter: invert(100%) drop-shadow(2px 3px 3px white);
+          filter: invert(100%) drop-shadow(2px 3px 3px white);
+}
+
+.nav-link {
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.nav-link:hover {
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(76, 57, 82, 0.7019607843));
+          filter: drop-shadow(2px 2px 2px rgba(76, 57, 82, 0.7019607843));
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.navbar-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .max-container {
   max-width: 1500px;
 }
 
 .head {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .head-box {
   width: 100%;
 }
 
-.personal {
-  background-image: url(../assets/img/foto_personal.png);
-  background-position: center;
-  width: 20rem;
-  height: 20rem;
-  border-radius: 25%;
-  border: 2px solid black;
+.photo {
+  width: 100%;
+  max-width: 9rem;
+  border-radius: 50%;
 }
 
-.logo-mawe {
-  width: 8rem;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+.seated {
+  width: 100%;
+  max-width: 6rem;
+  border-radius: 50%;
+  top: -13px;
+  right: -30px;
+  -webkit-animation: cambioDeColor 20s linear infinite;
+          animation: cambioDeColor 20s linear infinite;
+}
+@-webkit-keyframes cambioDeColor {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+@keyframes cambioDeColor {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
 }
 
 .programming-img {
   width: 100%;
   max-width: 30rem;
+  -webkit-filter: drop-shadow(2px 4px 6px black) hue-rotate(35deg);
+          filter: drop-shadow(2px 4px 6px black) hue-rotate(35deg);
 }
 
 .skills {
@@ -49,4 +119,75 @@
 .sass,
 .bootstrap {
   max-width: 2.3rem;
+}
+
+.aboutme-container {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 25px -12px rgb(66, 68, 90);
+  box-shadow: 0px 0px 25px -12px rgb(66, 68, 90);
+}
+
+.cindy-logo-footer {
+  width: 12rem;
+}
+
+.github-icon-footer,
+.linkedin-icon-footer,
+.instagram-icon-footer {
+  width: 100%;
+  max-width: 1.5rem;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.call-icon-footer,
+.email-icon-footer {
+  width: 100%;
+  max-width: 1.2rem;
+  -webkit-filter: invert(100);
+          filter: invert(100);
+}
+
+.github,
+.ig,
+.linkedin {
+  width: 100%;
+  max-width: 1.2rem;
+}
+
+.wp-icon-footer {
+  width: 100;
+  max-width: 1.2rem;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 100%;
+  max-width: 3rem;
+  height: 3rem;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 100;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.whatsapp:hover {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.whatsapp-icon {
+  width: 50%;
+}
+
+.contenedor-prueba {
+  min-height: 70vh;
 }/*# sourceMappingURL=style.css.map */

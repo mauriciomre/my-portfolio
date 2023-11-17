@@ -1,0 +1,58 @@
+.cindy-logo-footer {
+    width: 12rem;
+}
+
+.github-icon-footer,
+.linkedin-icon-footer,
+.instagram-icon-footer {
+    width: 100%;
+    max-width: 1.5rem;
+    filter: invert(100%);
+}
+
+.call-icon-footer,
+.email-icon-footer {
+    width: 100%;
+    max-width: 1.2rem;
+    filter: invert(100);
+}
+
+.github,
+.ig,
+.linkedin {
+    width: 100%;
+    max-width: 1.2rem;
+}
+
+.wp-icon-footer {
+    width: 100;
+    max-width: 1.2rem;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 100%;
+    max-width: 3rem;
+    height: 3rem;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    transition: 0.2s;
+
+    &:hover {
+        filter: brightness(110%);
+        transition: 0.2s;
+    }
+}
+
+.whatsapp-icon {
+    width: 50%;
+}
+
+.contenedor-prueba {
+    min-height: 70vh;
+}

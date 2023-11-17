@@ -1,53 +1,6 @@
-.max-container {
-    max-width: 1500px;
-}
-
-.head {
-    height: 100vh;
-    //height: calc(100vh - 58px);
-}
-
-.head-box {
-    width: 100%;
-}
-
-.personal {
-    background-image: url(../assets/img/foto_personal.png);
-    background-position: center;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 25%;
-    border: 2px solid black;
-}
-
-.logo-mawe {
-    width: 8rem;
-    filter: invert(100%);
-}
-
-.programming-img {
-    width: 100%;
-    max-width: 30rem;
-}
-
-.skills {
-    width: 100%;
-    max-width: 600px;
-    height: 5rem;
-    border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
-    box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
-}
-
-.icon-skill-img {
-    width: 100%;
-    max-width: 2.5rem;
-}
-
-.javascript,
-.typescript,
-.sass,
-.bootstrap {
-    max-width: 2.3rem;
-}
+@import "variables";
+@import "reset";
+@import "general";
+@import "navbar";
+@import "main";
+@import "footer";

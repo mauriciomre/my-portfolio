@@ -9,6 +9,8 @@ import nodejs from "../assets/img/skills/nodejs.svg";
 import react from "../assets/img/skills/react.svg";
 import sass from "../assets/img/skills/sass.svg";
 import typescript from "../assets/img/skills/typescript.svg";
+import photo from "../assets/img/foto_personal.png";
+import seated from "../assets/img/seated.svg";
 
 const Main = () => {
     return (
@@ -18,7 +20,7 @@ const Main = () => {
                     <div className="head-box text-center mt-auto">
                         <div className="row">
                             <div className="col-12 mb-4">
-                                <div className="text-center ">
+                                <div className="text-center px-5 px-md-0">
                                     <img className="programming-img" src={programming} alt="Programming image" />
                                 </div>
                             </div>
@@ -34,9 +36,9 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="container d-flex flex-wrap flex-column justify-content-end align-items-center pb-4">
+                    <div className="container d-flex flex-wrap flex-column justify-content-end align-items-center pb-4 mb-4">
                         <h4 className="fw-bold mb-4">My Skills</h4>
-                        <div className="skills d-flex justify-content-around align-items-center px-3 w-100">
+                        <div className="skills d-flex gap-2 justify-content-around align-items-center px-3 w-100">
                             <div className="icon-skill">
                                 <img
                                     className="icon-skill-img javascript"
@@ -70,6 +72,49 @@ const Main = () => {
                             </div>
                             <div className="icon-skill">
                                 <img className="icon-skill-img react" src={react} alt="react" srcset="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* ABOUT ME */}
+
+                <div className="container-fluid text-center py-5 bg-body-tertiary">
+                    <div className="container my-5">
+                        <div className="row d-flex justify-content-center">
+                            <div className="col-12">
+                                <h4 className="fw-bold mb-4">About me</h4>
+                            </div>
+                            <div className="col-12 text-center aboutme-container p-5 position-relative">
+                                <img
+                                    className="photo position-absolute top-0 start-0 translate-middle z-1 d-none d-md-inline-block"
+                                    src={photo}
+                                    alt="personal picture"
+                                    srcset=""
+                                />
+                                <img
+                                    className="seated position-absolute translate-middle z-1"
+                                    src={seated}
+                                    alt="seated"
+                                    srcset=""
+                                />
+                                <div className="container">
+                                    <img
+                                        className="rounded-pill w-25 z-1 d-inline-block d-md-none mb-3"
+                                        src={photo}
+                                        alt="personal picture"
+                                        srcset=""
+                                    />
+                                    <strong className="fs-1 ms-3">Hello world!</strong>
+                                    <p className="fs-4 position-relative">
+                                        I consider myself an entrepreneurial and self-taught person. Thanks to my
+                                        profile I obtained skills such as adapting easily to projects and businesses,
+                                        quick learning, good organization and teamwork. I have solid knowledge of
+                                        popular development tools since my career was influenced by prestigious programs
+                                        such as Coderhouse and Henry. I am looking for a new job opportunity with which
+                                        I can continue promoting my academic and professional career.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
