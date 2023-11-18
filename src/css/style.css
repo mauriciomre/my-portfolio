@@ -69,8 +69,8 @@ body {
   border-radius: 50%;
   top: -13px;
   right: -30px;
-  -webkit-animation: cambioDeColor 20s linear infinite;
-          animation: cambioDeColor 20s linear infinite;
+  -webkit-animation: cambioDeColor 15s linear infinite;
+          animation: cambioDeColor 15s linear infinite;
 }
 @-webkit-keyframes cambioDeColor {
   0% {
