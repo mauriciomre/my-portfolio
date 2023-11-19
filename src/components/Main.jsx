@@ -11,13 +11,15 @@ import sass from "../assets/img/skills/sass.svg";
 import typescript from "../assets/img/skills/typescript.svg";
 import photo from "../assets/img/foto_personal.png";
 import seated from "../assets/img/seated.svg";
+import wavesquare from "../assets/img/wave-square.svg";
 
 const Main = () => {
     return (
         <>
             <main>
-                <div className="container head d-flex flex-wrap">
-                    <div className="head-box text-center mt-auto">
+                <div className="bg-square position-absolute z-n"></div>
+                <div className="container head d-flex flex-wrap pt-2 pt-md-0 position-relative">
+                    <div className="head-box text-center mt-auto pt-5 pt-md-0 position-relative">
                         <div className="row">
                             <div className="col-12 mb-4">
                                 <div className="text-center px-5 px-md-0">
@@ -36,7 +38,7 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="container d-flex flex-wrap flex-column justify-content-end align-items-center pb-4 mb-4">
+                    <div className="container d-flex flex-wrap flex-column justify-content-end align-items-center pb-4 mb-4 position-relative">
                         <h4 className="fw-bold mb-4">My Skills</h4>
                         <div className="skills d-flex gap-2 justify-content-around align-items-center px-3 w-100">
                             <div className="icon-skill">
@@ -69,13 +71,17 @@ const Main = () => {
 
                 {/* ABOUT ME */}
 
-                <div className="container-fluid text-center py-5 bg-body-tertiary">
-                    <div className="container my-5">
+                <div className="aboutme-container container-fluid text-center bg-body-tertiary position-relative p-0">
+                    <div className="bg-circle position-absolute z-4"></div>
+                    <div className="w-100">
+                        <img className="wavesquare position-relative" src={wavesquare} alt="" />
+                    </div>
+                    <div className="container py-5">
                         <div className="row d-flex justify-content-center">
                             <div className="col-12">
-                                <h4 className="fw-bold mb-4">About me</h4>
+                                <h4 className="fw-bold mb-4 position-relative">About me</h4>
                             </div>
-                            <div className="col-12 text-center aboutme-container p-5 position-relative">
+                            <div className="col-12 text-center aboutme-box px-0 pt-3 pb-1 py-sm-4 px-sm-4 position-relative mx-1">
                                 <img
                                     className="photo position-absolute top-0 start-0 translate-middle z-1 d-none d-md-inline-block"
                                     src={photo}
@@ -92,8 +98,10 @@ const Main = () => {
                                         src={photo}
                                         alt="personal picture"
                                     />
-                                    <strong className="fs-1 ms-3">Hello world!</strong>
-                                    <p className="fs-4 position-relative">
+
+                                    <strong className="fs-2 ms-3">Hello world!</strong>
+
+                                    <p className="fs-5 position-relative text-start text-sm-center">
                                         I consider myself an entrepreneurial and self-taught person. Thanks to my
                                         profile I obtained skills such as adapting easily to projects and businesses,
                                         quick learning, good organization and teamwork. I have solid knowledge of

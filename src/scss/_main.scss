@@ -11,6 +11,21 @@
     width: 100%;
 }
 
+.bg-square {
+    background-image: url("../assets/img/bg-square.svg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: space;
+    width: 100%;
+    height: 100%;
+    //border: 2px solid red;
+    filter: opacity(0.2);
+}
+
+.wavesquare {
+    width: 100%;
+}
+
 .photo {
     width: 100%;
     max-width: 9rem;
@@ -20,10 +35,10 @@
 
 .seated {
     width: 100%;
-    max-width: 6rem;
+    max-width: 5rem;
     border-radius: 50%;
-    top: -13px;
-    right: -30px;
+    top: -12px;
+    right: -15px;
 
     @keyframes cambioDeColor {
         0% {
@@ -40,6 +55,7 @@
 .programming-img {
     width: 100%;
     max-width: 30rem;
+    max-height: 50vh;
     filter: drop-shadow(2px 4px 6px black) hue-rotate(35deg);
 }
 
@@ -48,9 +64,11 @@
     max-width: 600px;
     height: 5rem;
     border-radius: 20px;
+    backdrop-filter: 10px;
     -webkit-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
     box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
+    background-color: white;
 }
 
 .icon-skill-img {
@@ -65,11 +83,12 @@
     max-width: 2.3rem;
 }
 
-.aboutme-container {
+.aboutme-box {
     width: 100%;
     max-width: 600px;
     border-radius: 20px;
     -webkit-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
     box-shadow: 0px 0px 25px -12px rgba(66, 68, 90, 1);
+    backdrop-filter: blur(5px);
 }
